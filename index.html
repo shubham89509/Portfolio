@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/particle.js"></script>
+    <script defer src="assets/js/app.js"></script>
+    <title>Shubham Portfolio</title>
+    <link rel="icon" href="./assets/img/profilep.jpg" type="image/gif">
+  </head>
+  <body>
+    <!------------------ Header  ------------------------>
+    <!--------------- NavBar Starts --------------------->
+
+    <header class="header">
+      <a href="#" class="logo">Shubham Singh</a>
+      <div id="menu"> <svg class="icon">
+        <use
+          xlink:href="assets/img/sprite.svg#icon-menu"
+        ></use>
+      </svg></div>
+      <nav class="navbar">
+        <ul>
+          <li><a class="nav-items section-home active" href="#section-home">Home</a></li>
+          <li><a class="nav-items section-about" href="#section-about">About</a></li>
+          <li><a class="nav-items section-skills "  href="#section-skills">Skills & Educatoin</a></li>
+          <li><a class="nav-items section-work" href="#section-work">Work</a></li>
+          <li><a class="nav-items section-contact" href="#section-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--------------- NavBar Ends ----------------------->
+    <!---------------- Header Ends  --------------------->
+    <main>
+      <!--------------- hero section starts --------------->
+      <section class="section home" id="section-home">
+        <div id="particles-js"></div>
+        <!-- Content-Box -->
+        <div class="content">
+          <h3 class="hero-heading">Hi There,<span class="wave"> 👋</span></h3>
+          <p class="hero-text">I Am <span id="type"></span></p>
+
+          <a href="#section-about" class="btn btn-primary">
+            About Me
+            <svg class="icon">
+              <use
+                class="icon"
+                xlink:href="assets/img/sprite.svg#icon-arrow-with-circle-down"
+              ></use>
+            </svg>
+          </a>
+
+          <div class="social-box">
+            <div class="button">
+              <div class="icn">
+                <a href="https://github.com/shubham89509">
+                  <svg>
+                    <use xlink:href="assets/img/sprite.svg#icon-github"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="button">
+              <div class="icn">
+                <a href="https://www.linkedin.com/in/shubham-singh-mmmm/">
+                  <svg>
+                    <use xlink:href="assets/img/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="button">
+              <div class="icn">
+                <a href="https://twitter.com/SinghNny">
+                  <svg>
+                    <use xlink:href="assets/img/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="button">
+              <div class="icn">
+                <a href="https://www.instagram.com/its_me_ronny_singh/">
+                  <svg>
+                    <use
+                      xlink:href="assets/img/sprite.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image-Box -->
+        <div class="img-box  ">
+          <img
+            class="hero-img"
+            src="assets/img/Hero-img.svg"
+            alt="cartoon of men programming"
+          />
+        </div>
+      </section>
+      <!--------------- hero section Ends --------------->
+
+      <!--------------- About Section Start --------------->
+      <section class="section about" id="section-about">
+        <h2 class="heading">
+          <span class="icon">
+            <svg>
+              <use xlink:href="assets/img/sprite.svg#icon-user"></use>
+            </svg>
+          </span>
+          About <span class="me"> Me</span>
+        </h2>
+
+        <!-- About Box -->
+        <div class="about-box  ">
+          <div class="about-img slide-in from-left">
+            <img src="assets\img\profilep.jpg" alt="subender's photo" />
+          </div>
+
+          <div class="about-content slide-in from-right">
+            <h2>Shubham Singh</h2>
+            <span class="tag">Frontend Developer</span>
+            <p>
+              I'm currently working in <b>Zucol Groups in Ganga Heights,Jaipur</b> as a <b>Java Devloper</b>. and i am also a Front-End Developer located in Haryana India, I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences and I enjoy making things that live on the internet. I can conjure a website from nothing into existence, fully formed. I do not use tricks, nor is this magic. I specialize in manipulating the very fabric of the web, its raw materials of HTML, CSS, JavaScript and React.   
+            </p>
+            <div class="personal-info">
+              <div>
+                <span class="red">Email</span>
+                :
+                <span href="shubham89509@gmail.com">shubham89509@gmail.com</span>
+              </div>
+
+              <div>
+                <span class="red">Adress</span>
+                :
+                <span>Rewari, Haryana,India 123401</span>
+              </div>
+
+              <div>
+                <span class="red">Phone</span>
+                :
+                <span>+91-8950989378</span>
+              </div>
+            </div>
+            <a href="assets\pdf\Shubham Resume Update.pdf" download>
+              Resume
+              <svg>
+                <use
+                  xlink:href="assets/img/sprite.svg#icon-download"
+                ></use></svg
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!--------------- About Section Ends --------------->
+
+      <!--------Skills & Education Section Starts ---------->
+
+      <section class="section skills-education" id="section-skills">
+        <h2 class="heading">
+          <span class="icon">
+            <svg>
+              <use xlink:href="assets/img/sprite.svg#icon-graduation-cap"></use>
+            </svg>
+          </span>
+          Skills & <span class="me"> Education</span>
+        </h2>
+
+        <div class="row">
+          <div class="skills slide-in from-left">
+            <h4>Skills</h4>
+            <div class="skills-box">
+              <div class="box">
+                <div class="info">
+                  <img
+                    src="./assets/img/javascript.svg"
+                    alt="javascript icon"
+                  />
+                  <span>Javascript</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="info">
+                  <img src="./assets/img/css.svg" alt="css3 icon" />
+                  <span>CSS 3</span>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="info">
+                  <img src="./assets/img/react-js.svg" alt="React icon" />
+                  <span>React</span>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="info">
+                  <img src="./assets/img/git-icon.svg" alt="Git icon" />
+                  <span>Git</span>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="info">
+                  <img src="./assets/img/html5.svg" alt="HTML 5 icon" />
+                  <span>HTML 5</span>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="info">
+                  <img src="./assets/img/icons8-github.svg" alt="GitHub icon" />
+                  <span>GitHub</span>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="info">
+                  <img src="./assets/img/c.svg" alt="C Language icon" />
+                  <span>C Lang.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education slide-in from-right">
+            <h4>Education</h4>
+            <div class="education-box">
+              
+                  <div class="edu-card mar-top">
+                    <img src="assets\img\klp.jpg" alt="">
+                    <div class="edu-info">
+                      <h2>KLP college ,Rewari</h2>
+                      <h4><span>BCA</span></h4>
+                      <p>2015 - 2018 </p>
+                    </div>
+                  </div>
+
+                  <div class="edu-card mar-top">
+                    <img src="assets\img\igu.jpg" alt="">
+                    <div class="edu-info">
+                      <h2>Indira Gandhi University,Meerpur</h2>
+                      <h4><span>MCA</span></h4>
+                      <p>2019 - 2021 </p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--------Skills & Education Section ENDS ---------->
+
+      <!------------PROJECTS SECTION STARTS --------------->
+
+      <section class="section projects" id="section-work">
+        <div class="heading-block">
+          <h2 class="heading">
+              <svg>
+                <use xlink:href="assets/img/sprite.svg#icon-code"></use>
+              </svg>
+          
+           My<span class="me"> Projects</span>
+          </h2>
+        </div>
+
+        <div class="projects-container for-left">
+         <!-- Projects will be inserted dynamically -->
+        </div>
+      </section>
+ <!------------PROJECTS SECTION ENDS ----------------->
+
+
+ <!------------CONTACE ME SECTION STARTS ----------------->
+      <section class=" section contact-me" id="section-contact">
+        <div class="heading-block">
+          <h2 class="heading">
+              <svg>
+                <use xlink:href="assets/img/sprite.svg#icon-headphones"></use>
+              </svg>
+          
+           Contact<span class="me"> Me</span>
+          </h2>
+        </div>
+
+        <div class="contact-container">
+          <div class="content ">
+         <div class="image-box slide-in from-left">
+           <img src="./assets/img/contactimg.webp" alt="contact img">
+         </div>
+         <form class="slide-in from-right" action="https://formsubmit.co/shubham89509@gmail.com" method="POST">
+           <div class="container">
+             <div class="input-field">
+               <input type="text" placeholder="Name" name="name" required>
+               <svg>
+                 <use xlink:href="assets/img/sprite.svg#icon-user"></use>
+               </svg>  
+             </div> 
+
+             <div class="input-field">
+              <input type="email" placeholder="Email" name="email" required>
+              <svg>
+                <use xlink:href="assets/img/sprite.svg#icon-mail"></use>
+              </svg>  
+            </div> 
+
+            <div class="input-field">
+              <input type="number" placeholder="Phone" name="phone" required>
+              <svg>
+                <use xlink:href="assets/img/sprite.svg#icon-phone"></use>
+              </svg>  
+            </div> 
+
+            <div class="input-textarea">
+              <textarea name="message" placeholder="Message" required spellcheck="false" style="height: 140px; width:450px;" ></textarea>
+              <svg>
+                <use xlink:href="assets/img/sprite.svg#icon-message"></use>
+              </svg> 
+            </div> 
+           </div>
+           <div class="btn-box"><button >Submit <svg>
+            <use xlink:href="assets/img/sprite.svg#icon-paper-plane"></use>
+          </svg> </button></div>
+         </form>
+        </div>
+        </div>
+      </section>
+
+      <!------------CONTACE ME SECTION ENDS ----------------->
+
+
+      <!------------------- FOOTER STARTS -------------------->
+
+      <footer>
+        <div class="footer-box">
+
+
+          <div class="my-details">
+            <h1>Shubham Singh</h1>
+            <p>Thanks for the visit <span>🙏</span> </p>
+            <h2>Contact Info</h2>
+            <div class="contact-box">
+              <div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-phone"></use>
+                </svg> 
+                <span>+91 89509 89378</span>
+              </div>
+
+              <div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-mail"></use>
+                </svg> 
+                <span>shubham89509@gmail.com</span>
+              </div>
+
+              <div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-location-pin"></use>
+                </svg> 
+                <span>Rewari, Haryana,India 123501</span>
+              </div>
+            </div>
+
+          </div>
+
+<!-- --------------------------------------------------------------- -->
+
+          <div class="quick-links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li><a href="#section-home"><div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-arrow-with-circle-down"></use>
+                </svg> Home</a></li>
+              <li><a href="#section-about"><div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-arrow-with-circle-down"></use>
+                </svg> About</a></li>
+              <li><a href="#section-skills"><div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-arrow-with-circle-down"></use>
+                </svg> Skills & Education</a></li>
+              <li><a href="#section-work"><div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-arrow-with-circle-down"></use>
+                </svg> Work</a></li>
+              <li><a href="#section-contact"><div class="line">
+                <svg>
+                  <use xlink:href="assets/img/sprite.svg#icon-arrow-with-circle-down"></use>
+                </svg> Contact</a></li>
+            </ul>
+          </div>
+          <div class="social">
+            <h2>Socials</h2>
+            <ul>
+              <li><a href="https://github.com/shubham89509" target="_blank"><svg>
+                <use xlink:href="assets/img/sprite.svg#icon-github"></use>
+              </svg></a></li>
+              <li><a href="https://twitter.com/SinghNny" target="_blank"><svg>
+                <use xlink:href="assets/img/sprite.svg#icon-twitter"></use>
+              </svg></a></li>
+              <li><a href="mailto:shubham89509@gmail.com" target="_blank"><svg>
+                <use xlink:href="assets/img/sprite.svg#icon-mail"></use>
+              </svg></a></li>
+              <li><a href="https://www.linkedin.com/in/shubham-singh-mmmm/" target="_blank"><svg>
+                <use xlink:href="assets/img/sprite.svg#icon-linkedin"></use>
+              </svg></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="split"></div>
+        <h6 class="footer-msg">Made with <span>💙</span> by <a href="https://twitter.com/SinghNny" target="_blank""> @Shubham</a> </h6>
+
+      </footer>
+      
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  </body>
+</html>
